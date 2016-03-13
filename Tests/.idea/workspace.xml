@@ -14,12 +14,16 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Tests$py_test_in_addNewMovie_and_test_add_new_movie.coverage" NAME="py.test in addNewMovie and test_add_new_movie Coverage Results" MODIFIED="1457880095131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tests$py_test_in_addNewMovie_and_test_add_new_movie.coverage" NAME="py.test in addNewMovie and test_add_new_movie Coverage Results" MODIFIED="1457885646175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tests$py_test_in_addNewMovie_and_test_add_new_movie__2_.coverage" NAME="py.test in addNewMovie and test_add_new_movie (2) Coverage Results" MODIFIED="1457885309521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tests$py_test_in_Test_add_new_movie_py.coverage" NAME="py.test in Test_add_new_movie.py Coverage Results" MODIFIED="1457879323868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tests$py_test_in_addNewMovie_and_test_open_adding_page.coverage" NAME="py.test in addNewMovie and test_open_adding_page Coverage Results" MODIFIED="1457875785682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tests$py_test_in_addNewMovie_and_test_fill_movie_values.coverage" NAME="py.test in addNewMovie and test_fill_movie_values Coverage Results" MODIFIED="1457875685619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Tests$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1457874256661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tests$py_test_in_addNewMovie.coverage" NAME="py.test in addNewMovie Coverage Results" MODIFIED="1457874483926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tests$py_test_in_addNewMovie_and_test_add_new_movie__1_.coverage" NAME="py.test in addNewMovie and test_add_new_movie (1) Coverage Results" MODIFIED="1457883563849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tests$py_test_in_Test_delete_movie_py.coverage" NAME="py.test in Test_delete_movie.py Coverage Results" MODIFIED="1457883745342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tests$py_test_in_addNewMovie.coverage" NAME="py.test in addNewMovie Coverage Results" MODIFIED="1457884681681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tests$py_test_in_addNewMovie__1_.coverage" NAME="py.test in addNewMovie (1) Coverage Results" MODIFIED="1457885668403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -30,11 +34,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Test_add_new_movie.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test_add_new_movie.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test_add_new_movie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72613066">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_fail_add_movie.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_fail_add_movie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_delete_movie.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test_delete_movie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17708333">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -67,6 +95,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Test_.py" />
+        <option value="$PROJECT_DIR$/Test_fail_add_movie.py" />
+        <option value="$PROJECT_DIR$/Test_delete_movie.py" />
         <option value="$PROJECT_DIR$/Test_add_new_movie.py" />
       </list>
     </option>
@@ -134,57 +164,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Python tests.py.test in addNewMovie and test_add_new_movie">
-    <configuration default="false" name="py.test in Test_add_new_movie.py" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/Test_add_new_movie.py" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in addNewMovie" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/Test_add_new_movie.py" />
-      <option name="keywords" value="addNewMovie" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in addNewMovie (1)">
     <configuration default="false" name="py.test in addNewMovie and test_add_new_movie" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,7 +190,7 @@
       <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in addNewMovie and test_open_adding_page" type="tests" factoryName="py.test" temporary="true">
+    <configuration default="false" name="py.test in Test_delete_movie.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -228,14 +208,64 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/Test_add_new_movie.py" />
-      <option name="keywords" value="addNewMovie and test_open_adding_page" />
+      <option name="testToRun" value="$PROJECT_DIR$/Test_delete_movie.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in addNewMovie and test_add_new_movie (2)" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/Test_delete_movie.py" />
+      <option name="keywords" value="addNewMovie and test_add_new_movie" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in addNewMovie and test_fill_movie_values" type="tests" factoryName="py.test" temporary="true">
+    <configuration default="false" name="py.test in addNewMovie" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/Test_delete_movie.py" />
+      <option name="keywords" value="addNewMovie" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in addNewMovie (1)" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -254,7 +284,7 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="testToRun" value="$PROJECT_DIR$/Test_add_new_movie.py" />
-      <option name="keywords" value="addNewMovie and test_fill_movie_values" />
+      <option name="keywords" value="addNewMovie" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
@@ -449,19 +479,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in Test_add_new_movie.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie and test_add_new_movie" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie and test_open_adding_page" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie and test_fill_movie_values" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie and test_add_new_movie" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in Test_delete_movie.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie and test_add_new_movie (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie and test_add_new_movie" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in Test_add_new_movie.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie and test_open_adding_page" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie and test_fill_movie_values" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie and test_add_new_movie" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie and test_add_new_movie (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in addNewMovie" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in Test_delete_movie.py" />
       </list>
     </recent_temporary>
   </component>
@@ -476,35 +506,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_Test_add_new_movie_py - 2016.03.13 at 17h 28m 54s.xml">
-      <configuration name="py.test in Test_add_new_movie.py" configurationId="tests" />
+    <history-entry file="py_test_in_addNewMovie - 2016.03.13 at 18h 58m 15s.xml">
+      <configuration name="py.test in addNewMovie" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie - 2016.03.13 at 17h 26m 33s.xml">
+    <history-entry file="py_test_in_addNewMovie_(1) - 2016.03.13 at 19h 14m 43s.xml">
+      <configuration name="py.test in addNewMovie (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie - 2016.03.13 at 19h 14m 18s.xml">
       <configuration name="py.test in addNewMovie and test_add_new_movie" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie - 2016.03.13 at 17h 28m 05s.xml">
-      <configuration name="py.test in addNewMovie and test_add_new_movie" configurationId="tests" />
+    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie_(2) - 2016.03.13 at 18h 54m 49s.xml">
+      <configuration name="py.test in addNewMovie and test_add_new_movie (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie - 2016.03.13 at 17h 30m 07s.xml">
-      <configuration name="py.test in addNewMovie and test_add_new_movie" configurationId="tests" />
+    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie_(2) - 2016.03.13 at 18h 57m 58s.xml">
+      <configuration name="py.test in addNewMovie and test_add_new_movie (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie - 2016.03.13 at 17h 31m 14s.xml">
-      <configuration name="py.test in addNewMovie and test_add_new_movie" configurationId="tests" />
+    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie_(2) - 2016.03.13 at 19h 04m 50s.xml">
+      <configuration name="py.test in addNewMovie and test_add_new_movie (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie - 2016.03.13 at 17h 34m 08s.xml">
-      <configuration name="py.test in addNewMovie and test_add_new_movie" configurationId="tests" />
+    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie_(2) - 2016.03.13 at 19h 06m 47s.xml">
+      <configuration name="py.test in addNewMovie and test_add_new_movie (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie - 2016.03.13 at 17h 34m 51s.xml">
-      <configuration name="py.test in addNewMovie and test_add_new_movie" configurationId="tests" />
+    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie_(2) - 2016.03.13 at 19h 07m 07s.xml">
+      <configuration name="py.test in addNewMovie and test_add_new_movie (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie - 2016.03.13 at 17h 39m 48s.xml">
-      <configuration name="py.test in addNewMovie and test_add_new_movie" configurationId="tests" />
+    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie_(2) - 2016.03.13 at 19h 08m 20s.xml">
+      <configuration name="py.test in addNewMovie and test_add_new_movie (2)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie - 2016.03.13 at 17h 40m 43s.xml">
-      <configuration name="py.test in addNewMovie and test_add_new_movie" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie - 2016.03.13 at 17h 41m 48s.xml">
-      <configuration name="py.test in addNewMovie and test_add_new_movie" configurationId="tests" />
+    <history-entry file="py_test_in_addNewMovie_and_test_add_new_movie_(2) - 2016.03.13 at 19h 08m 39s.xml">
+      <configuration name="py.test in addNewMovie and test_add_new_movie (2)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -517,7 +547,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3511811" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -559,8 +589,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test_add_new_movie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72613066">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_fail_add_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_delete_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17708333">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
