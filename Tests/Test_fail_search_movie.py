@@ -20,27 +20,22 @@ class searchMovie(unittest.TestCase):
 
     def test_search_All_Movies_In_Databases(self):
         driver = self.driver
-        wait = WebDriverWait(driver,10)
+        wait = WebDriverWait(driver,20)
         driver.get(self.base_url)
         driver.find_element_by_id("username").clear()
         driver.find_element_by_id("username").send_keys("admin")
         driver.find_element_by_name("password").clear()
         driver.find_element_by_name("password").send_keys("admin")
         driver.find_element_by_name("submit").click()
-        results = driver.find_element_by_id('results')
-        if results.text == 'No movies where found.':
-            time.sleep(5)
-            driver.quit()
-        else:
-            search = driver.find_element_by_id('q')
-            search.send_keys('123456879')
-            search.send_keys(Keys.RETURN)
-            search.clear()
-            found_Movie = wait.until(
-                    visibility_of_element_located((By.ID,'results'))
-                )
-            time.sleep(5)
-            driver.quit()
+        search = driver.find_element_by_id('q')
+        search.send_keys('123456')
+        search.send_keys(Keys.RETURN)
+        found_Movie = wait.until(
+            visibility_of_element_located((By.ID,'results'))
+            )
+        assert found_Movie.text == 'No movies where found.'
+        time.sleep(5)
+
 
 
 if __name__ == "__main__":

@@ -36,7 +36,7 @@ class addNewMovie(unittest.TestCase):
         IMDb.send_keys('12345789')
         title = driver.find_element_by_name('name')
         title.clear()
-        title.send_keys('title page')
+        title.send_keys('test1')
         also_known_as = driver.find_element_by_name('aka')
         also_known_as.clear()
         also_known_as.send_keys('grdrhdrhdrhdrhdrhrhrdh')
@@ -107,7 +107,7 @@ class addNewMovie(unittest.TestCase):
         save.click()
         check_Value = driver.find_element_by_class_name('genre')
         assert check_Value.text == 'genres'
-        time.sleep(5)
+        time.sleep(2)
         driver.quit()
 
     if __name__ == "__main__":

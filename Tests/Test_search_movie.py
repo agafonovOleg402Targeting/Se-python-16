@@ -24,7 +24,7 @@ class searchMovie(unittest.TestCase):
         cursor.execute(sql)
         data = cursor.fetchall()
         driver = self.driver
-        wait = WebDriverWait(driver,10)
+        wait = WebDriverWait(driver,30)
         driver.get(self.base_url)
         driver.find_element_by_id("username").clear()
         driver.find_element_by_id("username").send_keys("admin")
@@ -41,9 +41,11 @@ class searchMovie(unittest.TestCase):
                 search.send_keys(rec)
                 search.send_keys(Keys.RETURN)
                 search.clear()
+                time.sleep(10) #***Waiting for downloading a list of 10 seconds***
                 found_Movie = wait.until(
-                    visibility_of_element_located((By.CSS_SELECTOR,'div[id^="movie"]'))
+                    visibility_of_element_located((By.CSS_SELECTOR,'div[class="title"]'))
                 )
+                assert "No movies where found." not in driver.page_source
             time.sleep(5)
             driver.quit()
 
