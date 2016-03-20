@@ -1,12 +1,18 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 from selenium.common.exceptions import *
-from selenium_fixture import driver
+from selenium_fixture import app
+from model.User import *
 
-def Test_login(driver):
-    driver.get("http://localhost/php4dvd/")
-    driver.find_element_by_id("username").clear()
-    driver.find_element_by_id("username").send_keys("admin")
-    driver.find_element_by_name("password").clear()
-    driver.find_element_by_name("password").send_keys("admin")
-    driver.find_element_by_name("submit").click()
+def test_login(app):
+    app.go_to_home_page()
+    app.login(User.Admin())
+    assert app.is_logged_in()
+    app.logout()
+    assert app.is_not_logged_in()
+
+def test_fail_login(app):
+    app.go_to_home_page()
+    app.login(User.Fail_user())
+    assert app.is_not_logged_in()
+

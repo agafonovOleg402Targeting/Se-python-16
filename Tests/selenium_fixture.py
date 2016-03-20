@@ -1,9 +1,16 @@
 from selenium import webdriver
 import pytest
+from model.Application import *
+from conftest import *
 
-@pytest.fixture
-def driver(request):
-	driver = webdriver.Firefox()
-	driver.implicity_wait(10)
+@pytest.fixture(scope="module")
+def app(request, browser_type, base_url):
+    if browser_type== "firefox":
+        driver = webdriver.Firefox()
+    elif browser_type== "chrome":
+        driver = webdriver.Firefox()
+    elif browser_type== "ie":
+        driver = webdriver.Ie()
+	#driver.implicitly_wait(10)
 	request.addfinalizer(driver.quit)
-	return driver
+	return Application(driver, base_url)
