@@ -4,7 +4,7 @@ import pytest
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="firefox", help="browser_type")
-    parser.addoption("--base_url", action="store", default="firefox", help="base URL")
+    parser.addoption("--base_url", action="store", default="http://localhost/php4dvd/", help="base URL")
 
 @pytest.fixture(scope="module")
 def browser_type(request):
@@ -13,4 +13,4 @@ def browser_type(request):
 
 @pytest.fixture(scope="module")
 def base_url(request):
-	return request.config.getoption("--base_url ")
+	return request.config.getoption("--base_url")
