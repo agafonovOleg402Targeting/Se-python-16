@@ -1,5 +1,7 @@
 from selenium.webdriver.common.by import By
-from page import Page
+
+from Tests.pages.page import Page
+
 
 class AddMoviePage(Page):
 
@@ -16,97 +18,97 @@ class AddMoviePage(Page):
         return self.driver.find_element_by_name('name')
 
     @property
-    def year(self):
+    def year_field(self):
         return self.driver.find_element_by_name('year')
 
     @property
-    def duration(self):
+    def duration_field(self):
         return self.driver.find_element_by_name('duration')
 
     @property
-    def rating(self):
+    def rating_field(self):
         return self.driver.find_element_by_name('rating')
 
     @property
-    def i_own(self):
+    def i_own_field(self):
         return self.driver.find_element_by_id('own_no')
 
     @property
-    def i_have_seen(self):
+    def i_have_seen_field(self):
         return self.driver.find_element_by_id('seen_yes')
 
     @property
-    def loaned_out(self):
+    def loaned_out_field(self):
         return self.driver.find_element_by_id('loaned_yes')
 
     @property
-    def trailer(self):
+    def trailer_field(self):
         return self.driver.find_element_by_name('trailer')
 
     @property
-    def personal_notes(self):
+    def personal_notes_field(self):
         return self.driver.find_element_by_name('notes')
 
     @property
-    def taglines(self):
+    def taglines_field(self):
         return self.driver.find_element_by_name('taglines')
 
     @property
-    def plot_outline(self):
+    def plot_outline_field(self):
         return self.driver.find_element_by_name('plotoutline')
 
     @property
-    def plots(self):
+    def plots_field(self):
         return self.driver.find_element_by_name('plots')
 
     @property
-    def language(self):
+    def language_field(self):
         return self.driver.find_element_by_id('text_languages_0')
 
     @property
-    def subtitles(self):
+    def subtitles_field(self):
         return self.driver.find_element_by_name('subtitles')
 
     @property
-    def audio(self):
+    def audio_field(self):
         return self.driver.find_element_by_name('audio')
 
     @property
-    def video(self):
+    def video_field(self):
         return self.driver.find_element_by_name('video')
 
     @property
-    def country(self):
+    def country_field(self):
         return self.driver.find_element_by_name('country')
 
     @property
-    def genres(self):
+    def genres_field(self):
         return self.driver.find_element_by_name('genres')
 
     @property
-    def director(self):
+    def director_field(self):
         return self.driver.find_element_by_name('director')
 
     @property
-    def writer(self):
+    def writer_field(self):
         return self.driver.find_element_by_name('writer')
 
     @property
-    def producer(self):
+    def producer_field(self):
         return self.driver.find_element_by_name('producer')
 
     @property
-    def music(self):
+    def music_field(self):
         return self.driver.find_element_by_name('music')
 
     @property
-    def cast(self):
+    def cast_field(self):
         return self.driver.find_element_by_name('cast')
 
     @property
-    def save(self):
+    def save_field(self):
         return self.driver.find_element_by_id('submit')
 
     @property
-    def is_this_page(self):
+    def is_this_page_field(self):
         return self.is_element_visible((By.ID, 'imdbsearchform'))

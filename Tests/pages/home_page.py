@@ -1,5 +1,7 @@
 from selenium.webdriver.common.by import By
-from page import Page
+
+from Tests.pages.page import Page
+
 
 class HomePage(Page):
 
