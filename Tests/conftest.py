@@ -14,3 +14,4 @@ def browser_type(request):
 @pytest.fixture(scope="module")
 def base_url(request):
 	return request.config.getoption("--base_url")
+

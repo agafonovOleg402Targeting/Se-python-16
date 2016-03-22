@@ -11,6 +11,6 @@ def app(request, browser_type, base_url):
         driver = webdriver.Firefox()
     elif browser_type == "ie":
         driver = webdriver.Ie()
-	#driver.implicitly_wait(10)
-	request.addfinalizer(driver.quit)
-	return Application(driver, base_url)
+	driver.implicitly_wait(10)
+    request.addfinalizer(driver.quit)
+    return Application(driver,base_url)
