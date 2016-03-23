@@ -106,9 +106,17 @@ class AddMoviePage(Page):
         return self.driver.find_element_by_name('cast')
 
     @property
-    def save_field(self):
+    def save_button(self):
         return self.driver.find_element_by_id('submit')
 
     @property
-    def is_this_page_field(self):
+    def is_this_page(self):
         return self.is_element_visible((By.ID, 'imdbsearchform'))
+
+    @property
+    def is_this_page_with_new_movie(self):
+        return self.is_element_visible((By.CSS_SELECTOR, "a[target = '_blank']"))
+
+    @property
+    def error_message(self):
+        return self.driver.find_element_by_name('name')

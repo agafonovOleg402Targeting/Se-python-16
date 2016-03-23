@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 from selenium.common.exceptions import *
-from selenium_fixture import app
+from conftest import app
 from model.User import *
 
 def test_login(app):
